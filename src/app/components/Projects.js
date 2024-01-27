@@ -107,7 +107,7 @@ const Projects = () => {
             front-end, and web development. Dive in to explore the fusion of creativity and code. 
             Let's turn ideas into reality and create digital experiences that leave a lasting impression.`,
       projectLink: `/`,
-      codeLink: `/`
+      codeLink: `https://github.com/swapnilnichal/my_portfolio`
     },
     {
       projectName: `Archana's Classes`,
