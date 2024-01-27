@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: `Swapnil's Portfolio`,
-  description: `this is swapnil's personal portfolio website where user can see 
-                 swapnil's information, information about his skills,education, 
+  description: `this is swapnils personal portfolio website where user can see 
+                 swapnils information, information about his skills,education, 
                  user can see all the projects built by swapnil in projects section, 
                  user can visit those live projects and also see the code on github,
                  lastly user can see swapnil's experience and the companies where he had worked before.`,

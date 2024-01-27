@@ -35,8 +35,8 @@ const Experience = () => {
                     <span className="sc-hlnMnd iQezAS">
                       I am working with FitnEarn as web developer.
                       I am responsible for designing and developing user-friendly and
-                      efficient web applications to meet the needs of FitnEarn's users. as a web developer,
-                      I create a new features for FitnEarn's products.
+                      efficient web applications to meet the needs of FitnEarn users. as a web developer,
+                      I create a new features for FitnEarn website.
                     </span><br />
                     <div className="sc-jQHtVU hCWdWR">
                       <b>Skills:</b>

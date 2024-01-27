@@ -32,7 +32,7 @@ const TypeEffect = () => {
   return (
     <div>
       <div className="container">
-          <span className="text first-text">I'm a  </span>
+          <span className="text first-text">I am a  </span>
           <span className="text sec-text">{text}</span>
         </div>
     </div>

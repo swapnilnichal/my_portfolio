@@ -37,7 +37,7 @@ const Experience = () => {
                                         <div className="sc-bhVIhj hpYgTy"><b>Grade: </b>8.09 SGPA</div>
                                         <div className="sc-jOhDuK ykctb">
                                             <span className="sc-hlnMnd iQezAS">
-                                            I have completed Bachelor's degree in Computer Science at Kaveri College of Arts, 
+                                            I have completed Bachelor degree in Computer Science at Kaveri College of Arts, 
                                             Commerce and Science, Pune. I have a SGPA of 8.09 . I have taken courses in Data 
                                             Structures, Algorithms, Object-Oriented Programming, Database Management Systems,
                                             Operating Systems, and Computer Networks, among others.
