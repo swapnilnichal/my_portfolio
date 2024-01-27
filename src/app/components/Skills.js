@@ -10,7 +10,7 @@ import postmanLogo from "../../../public/postmanLogo.png"
 import figmaLogo from "../../../public/figmaLogo.png"
 import npmLogo from "../../../public/npmLogo.png"
 import RTL from "../../../public/RTL.png"
-import jestImg from "../../../public/jestImg.png"
+// import jestImg from "../../../public/jestImg.png"
 
 const Skills = () => {
   return (
@@ -128,10 +128,10 @@ const Skills = () => {
                 <Image src={figmaLogo} height={24} width={24} alt="skill-img"/>
                  Figma 
                 </div>
-                <div className="skill">
+                {/* <div className="skill">
                 <Image src={jestImg} height={24} width={24} alt="skill-img"/>
                  Jest 
-                </div>
+                </div> */}
                 <div className="skill">
                 <Image src={npmLogo} height={24} width={24} alt="skill-img"/>
                  npm 
