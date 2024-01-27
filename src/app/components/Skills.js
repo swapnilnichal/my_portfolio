@@ -8,9 +8,9 @@ import netlifyLogo from "../../../public/netlifyLogo.png"
 import vsCodeLogo from "../../../public/vscodeImg.png"
 import postmanLogo from "../../../public/postmanLogo.png"
 import figmaLogo from "../../../public/figmaLogo.png"
-import JestLogo from "../../../public/jestImg.png"
 import npmLogo from "../../../public/npmLogo.png"
 import RTL from "../../../public/RTL.png"
+import jestImg from "../../../public/jestImg.png"
 
 const Skills = () => {
   return (
@@ -129,7 +129,7 @@ const Skills = () => {
                  Figma 
                 </div>
                 <div className="skill">
-                <Image src={JestLogo} height={24} width={24} alt="skill-img"/>
+                <Image src={jestImg} height={24} width={24} alt="skill-img"/>
                  Jest 
                 </div>
                 <div className="skill">
