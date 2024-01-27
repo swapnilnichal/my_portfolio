@@ -1,3 +1,5 @@
+import Image from "next/image";
+import fitnearn from "../../../public/fitnearn.jpg";
 
 const Experience = () => {
   return (
@@ -16,7 +18,13 @@ const Experience = () => {
               </div>
               <div className="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-68bxna">
                 <div className="sc-eKBdFk jVjsEr"><div className="sc-bUbCnL gnYlPd">
-                  <img src="https://media.licdn.com/dms/image/C4D0BAQE8OgRrpvTinA/company-logo_200_200/0/1673262063259?e=1713398400&v=beta&t=bAQ4Z-v5Rq6qpK2RxhdQjuziakH_f-UpM_RGsXVQS3c" className="sc-kIKDeO fHNtMj" />
+                  <Image
+                    alt="logo of Company"
+                    src={fitnearn}
+                    width={50}
+                    height={50}
+                    className="sc-kIKDeO fHNtMj"
+                  />
                   <div className="sc-hNKHps jmYowc">
                     <div className="sc-dsQDmV gXyWph">Junior Web Developer</div>
                     <div className="sc-cZwWEu cYcuZM">FitnEarn Pvt. Ltd.</div>
@@ -25,15 +33,15 @@ const Experience = () => {
                 </div>
                   <div className="sc-jOhDuK ykctb">
                     <span className="sc-hlnMnd iQezAS">
-                       I am working with FitnEarn as web developer. 
-                       I am responsible for designing and developing user-friendly and 
-                       efficient web applications to meet the needs of FitnEarn's users. as a web developer, 
-                       I create a new features for FitnEarn's products.
+                      I am working with FitnEarn as web developer.
+                      I am responsible for designing and developing user-friendly and
+                      efficient web applications to meet the needs of FitnEarn's users. as a web developer,
+                      I create a new features for FitnEarn's products.
                     </span><br />
                     <div className="sc-jQHtVU hCWdWR">
                       <b>Skills:</b>
                       <div className="sc-fvNpTx edwONn">
-                      <div className="sc-fctJkW flsNtb">• ReactJS</div>
+                        <div className="sc-fctJkW flsNtb">• ReactJS</div>
                         <div className="sc-fctJkW flsNtb">• Redux</div>
                         <div className="sc-fctJkW flsNtb">• NodeJs</div>
                         <div className="sc-fctJkW flsNtb">• ExpressJs</div>
@@ -50,7 +58,7 @@ const Experience = () => {
                 </div>
               </div>
             </li>
-            
+
           </ul>
         </div>
       </div>

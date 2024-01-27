@@ -76,7 +76,7 @@ const Contact = () => {
         </div>
         
         <Toast onClose={() => setShow(false)} show={show} delay={3000} autohide >
-          <Toast.Header style={{display:"flex",justifyContent:"space-between"}}>
+          <Toast.Header style={{display:"flex",justifyContent:"space-between",backgroundColor:"#24a61d",color:"white",fontWeight:"800"}}>
             <strong className="mr-auto">Email Sent Successfully !</strong>
           </Toast.Header>
         </Toast>

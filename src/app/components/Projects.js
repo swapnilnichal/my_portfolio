@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react";
 import { Modal, Button } from "react-bootstrap"
+import Image from "next/image";
 import Link from "next/link";
 
 function MyVerticallyCenteredModal(props) {
@@ -13,7 +14,20 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title> */}
       </Modal.Header>
       <Modal.Body>
-        <img className="modal-project-img" src={props.projectimage} alt={props.projectname} />
+        <Image
+          alt="Project Image"
+          src={`/${props.projectimage}`}
+          height={300}
+          width={300}
+          quality={100}
+          unoptimized={true}
+          style={{
+            width: '100%',
+            height: 'auto',
+            objectFit: 'cover',
+            borderRadius: '12px',
+            boxShadow: 'rgba(0, 0, 0, 0.3) 0px 0px 10px 0px',
+          }} />
         <div className="project-details-div">
           <div className="modal-project-name">{props.projectname}</div>
           <div className="modal-project-duration">{props.projectduration}</div>
@@ -147,7 +161,20 @@ const Projects = () => {
 
             {projects.map((project, index) => (
               <div className="single-project" key={index} onClick={() => handleProjectClick(project)}>
-                <img className="project-img" src={project.projectImage} />
+                <Image
+                  alt="Project Image"
+                  src={`/${project.projectImage}`}
+                  height={300}
+                  width={300}
+                  quality={100}
+                  unoptimized={true}
+                  style={{
+                     width: '100%',
+                    height: '180px',
+                    backgroundColor: 'rgb(255, 255, 255)',
+                    borderRadius: '10px',
+                    boxShadow: 'rgba(0, 0, 0, 0.3) 0px 0px 16px 2px',
+                  }} />
                 <div className="techStack">
                   {
                     project.techStack.map((skill) => (

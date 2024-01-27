@@ -1,4 +1,6 @@
 import React from "react"
+import Image from "next/image";
+import juniorClg from "../../../public/junior-clg.jpg"
 
 const Experience = () => {
     return (
@@ -19,7 +21,13 @@ const Experience = () => {
                                 <div className="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-68bxna">
                                     <div className="sc-eKBdFk jVjsEr">
                                         <div className="sc-bUbCnL gnYlPd">
-                                            <img src="https://www.allschoolscolleges.com/images/school_logo/251539057380.png" className="sc-kIKDeO fHNtMj" />
+                                        <Image
+                                          alt="logo of college"
+                                          src="https://www.allschoolscolleges.com/images/school_logo/251539057380.png"
+                                          width={50}
+                                          height={50}
+                                          className="sc-kIKDeO fHNtMj"
+                                        />       
                                             <div className="sc-hNKHps jmYowc">
                                                 <div className="sc-dsQDmV gXyWph">Kaveri College of Arts, Commerce and Science</div>
                                                 <div className="sc-cZwWEu cYcuZM">Bachelor of Science - Computer Science</div>
@@ -47,7 +55,13 @@ const Experience = () => {
                                 <div className="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-68bxna">
                                     <div className="sc-eKBdFk jVjsEr">
                                         <div className="sc-bUbCnL gnYlPd">
-                                            <img src="https://ezyschooling-1.s3.amazonaws.com/schools/logos/user_generic_school_user/59831591_2106774472751436_3428749787707473920_n.jpg" className="sc-kIKDeO fHNtMj" />
+                                        <Image
+                                          alt="logo of junior college"
+                                          src={juniorClg}
+                                          width={50}
+                                          height={50}
+                                          className="sc-kIKDeO fHNtMj"
+                                        />   
                                             <div className="sc-hNKHps jmYowc">
                                                 <div className="sc-dsQDmV gXyWph">Sou Vimlabai Garware High School and Junior College</div>
                                                 <div className="sc-cZwWEu cYcuZM">HSC(XII) - Science</div>
@@ -73,7 +87,13 @@ const Experience = () => {
                                 <div className="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-68bxna">
                                     <div className="sc-eKBdFk jVjsEr">
                                         <div className="sc-bUbCnL gnYlPd">
-                                            <img src="http://www.kulguru.com/resource/img/school_default.png" className="sc-kIKDeO fHNtMj" />
+                                        <Image
+                                          alt="logo of school"
+                                          src="http://www.kulguru.com/resource/img/school_default.png"
+                                          width={50}
+                                          height={50}
+                                          className="sc-kIKDeO fHNtMj"
+                                        />    
                                             <div className="sc-hNKHps jmYowc">
                                                 <div className="sc-dsQDmV gXyWph">Dnyanada Madhyamic Vidyalaya</div>
                                                 <div className="sc-cZwWEu cYcuZM">SSC (X)</div>
